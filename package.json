@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-built-ins.js",
+  "dependencies": {
+    "request": "^2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HironDas/test_repo.git"
+  },
+  "author": "Hiron Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HironDas/test_repo/issues"
+  },
+  "homepage": "https://github.com/HironDas/test_repo"
+}
