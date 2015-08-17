@@ -4,9 +4,12 @@
   "description": "",
   "main": "1-built-ins.js",
   "dependencies": {
-    "request": "^2.60.0"
+    "request": "^2.60.0",
+    "socket.io": "^1.3.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
