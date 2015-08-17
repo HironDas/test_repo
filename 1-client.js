@@ -8,9 +8,10 @@ var options = {
 
 console.log("Going to make request...");
 
-var req = http.request(options, function(response){
+/*var req =*/ 
+http.get(options, function(response){
     console.log(response.statusCode);
     response.pipe(process.stdout);
 });
 
-req.end();
+// req.end();
