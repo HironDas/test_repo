@@ -12,5 +12,14 @@ var evenDoubler = function(v,callback) {
     }), time);
 };
 
+var evenDoublerSync = function(v) {
+     if (!(v % 2)) {
+            return v * 2;
+        } else {
+            throw (new Error("odd input"));
+        }
+}
+
 module.exports.evenDoubler = evenDoubler;
+module.exports.evenDoublerSync = evenDoublerSync;
 module.exports.foo = "bar";
